@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cd $HOME/BDReborn
+cd $HOME/PCT
 
 install() {
 	    cd tg
@@ -67,7 +67,7 @@ if [ ! -f ./tg/tgcli ]; then
    echo -e "     >>>>                       We Are Not Alliance                             "
    echo -e "     >>>>                       We Are Family                                   "
    echo -e "     >>>>                       We Are The Best :-)                             "
-   echo -e "     >>>>                       @BeyondTeam                                     "
+   echo -e "     >>>>                       @ProtectionTeam                                     "
    echo -e "\033[0;00m"
    echo -e "\e[36m"
    logo_play
