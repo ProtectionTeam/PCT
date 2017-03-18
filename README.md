@@ -20,11 +20,11 @@
 ```sh
 # Let's install the bot.
 cd $HOME
-git clone https://github.com/BeyondTeam/BDReborn.git
-cd BDReborn
-chmod +x beyond.sh
-./beyond.sh install
-./beyond.sh 
+git clone https://github.com/ProtectionTeam/Beyond.git
+cd PCT
+chmod +x pct.sh
+./pct.sh install
+./pct.sh 
 # Enter a phone number & confirmation code.
 ```
 ### One command
