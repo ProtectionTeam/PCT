@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cd $HOME/PC
+cd $HOME/PCT
 
 install() {
 	    cd tg
