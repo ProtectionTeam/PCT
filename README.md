@@ -21,7 +21,7 @@
 # Let's install the bot.
 cd $HOME
 git clone https://github.com/ProtectionTeam/Beyond.git
-cd PCT
+cd Beyond
 chmod +x pct.sh
 ./pct.sh install
 ./pct.sh 
@@ -30,7 +30,8 @@ chmod +x pct.sh
 ### One command
 To install everything in one command, use:
 ```sh
-cd $HOME && git clone https://github.com/BeyondTeam/BDReborn.git && cd BDReborn && chmod +x beyond.sh && ./beyond.sh install && ./beyond.sh
+cd $HOME && git clone https://github.com/ProtectionTeam/Beyond.git
+ && cd Beyond && chmod +x pct.sh && ./pct.sh install && ./pct.sh
 ```
 
 * * *
@@ -46,6 +47,11 @@ Open ./bot/bot.lua and add your ID to the "sudo_users" section in the following 
   }
 ```
 add your ID at line 72 in bot.lua and add your ID at line 2 in tools.lua, Then restart the bot.
+
+# Run auto.sh
+cd Beyond
+chmod +x auto.sh
+./auto.sh
 
 
 # Tnx 
