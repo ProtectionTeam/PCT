@@ -50,7 +50,7 @@ Open ./bot/bot.lua and add your ID to the "sudo_users" section in the following 
 add your ID at line 72 in bot.lua and add your ID at line 2 in tools.lua, Then restart the bot.
     ./auto.sh
 
-# Edit bye ProtectionTeam
+# Edit by ProtectionTeam
 # [ProtectionTeam](https://telegram.me/ProtectionTeam)
 
 # Tnx 
