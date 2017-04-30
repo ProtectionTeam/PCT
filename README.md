@@ -21,7 +21,7 @@
 # Let's install the bot.
 cd $HOME
 git clone https://github.com/ProtectionTeam/Beyond.git
-cd Beyond
+cd PCT
 chmod +x pct.sh
 ./pct.sh install
 ./pct.sh 
@@ -53,6 +53,8 @@ add your ID at line 72 in bot.lua and add your ID at line 2 in tools.lua, Then r
     chmod +x auto.sh
     ./auto.sh
 
+#Edit bye ProtectionTeam
+# [ProtectionTeam](https://telegram.me/ProtectionTeam)
 
 # Tnx 
 # [BeyondTeam](https://telegram.me/BeyondTeam)
