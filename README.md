@@ -31,10 +31,9 @@ chmod +x pct.sh
 To install everything in one command, use:
 ```sh
 cd $HOME && git clone https://github.com/ProtectionTeam/Beyond.git && cd Beyond && chmod +x pct.sh && ./pct.sh install && ./pct.sh
-```
 or 
 cd $HOME && git clone https://github.com/ProtectionTeam/Beyond.git && cd Beyond && chmod +x pct.sh && chmod +x auto.sh && ./pct.sh install && ./pct.sh && ./auto.sh
-
+```
 
 * * *
 
@@ -51,7 +50,7 @@ Open ./bot/bot.lua and add your ID to the "sudo_users" section in the following 
 add your ID at line 72 in bot.lua and add your ID at line 2 in tools.lua, Then restart the bot.
     ./auto.sh
 
-#Edit bye ProtectionTeam
+# Edit bye ProtectionTeam
 # [ProtectionTeam](https://telegram.me/ProtectionTeam)
 
 # Tnx 
