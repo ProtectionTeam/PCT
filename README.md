@@ -20,7 +20,7 @@
 ```sh
 # Let's install the bot.
 cd $HOME
-git clone https://github.com/ProtectionTeam/Beyond.git
+git clone https://github.com/ProtectionTeam/PCT.git
 cd PCT
 chmod +x pct.sh
 ./pct.sh install
@@ -30,9 +30,9 @@ chmod +x pct.sh
 ### One command
 To install everything in one command, use:
 ```sh
-cd $HOME && git clone https://github.com/ProtectionTeam/Beyond.git && cd PCT && chmod +x pct.sh && ./pct.sh install && ./pct.sh
+cd $HOME && git clone https://github.com/ProtectionTeam/PCT.git && cd PCT && chmod +x pct.sh && ./pct.sh install && ./pct.sh
 or 
-cd $HOME && git clone https://github.com/ProtectionTeam/Beyond.git && cd PCT && chmod +x pct.sh && chmod +x auto.sh && ./pct.sh install && ./pct.sh && ./auto.sh
+cd $HOME && git clone https://github.com/ProtectionTeam/PCT.git && cd PCT && chmod +x pct.sh && chmod +x auto.sh && ./pct.sh install && ./pct.sh && ./auto.sh
 ```
 
 * * *
