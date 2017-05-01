@@ -2955,10 +2955,10 @@ elseif tonumber(check_time) > 86400 then
 end
 if not lang then
 local settings = data[tostring(target)]["settings"] 
-text = "*̅G̅ʀ̅օ̅ʊ̅ք̅ ̅S̅ɛ̅ȶ̅ȶ̅ɨ̅ռ̅ɢ̅ֆ:*\n*̅ʟ̅օ̅ƈ̅ӄ̅ ̅ɛ̅ɖ̅ɨ̅ȶ:* "..settings.lock_edit.."\n*̅ʟ̅օ̅ƈ̅ӄ̅ ̅ʟ̅ɨ̅ռ̅ӄ̅ֆ :* "..settings.lock_link.."\n*̅ʟ̅օ̅ƈ̅ӄ̅ ̅ȶ̅ǟ̅ɢ̅ֆ :* "..settings.lock_tag.."\n*̅ʟ̅օ̅ƈ̅ӄ̅ ̅ʝ̅օ̅ɨ̅ռ :* "..settings.lock_join.."\n*̅ʟ̅օ̅ƈ̅ӄ̅ ̅ʄ̅ʟ̅օ̅օ̅ɖ :* "..settings.lock_flood.."\n*̅ʟ̅օ̅ƈ̅ӄ̅ ̅ʊ̅ֆ̅ɛ̅ʀ̅ռ̅ǟ̅ʍ̅ɛ :* "..settings.lock_username.."\n*̅ʟ̅օ̅ƈ̅ӄ̅ ̅ֆ̅ք̅ǟ̅ʍ :* "..settings.lock_spam.."\n*̅ʟ̅օ̅ƈ̅ӄ̅ ̅ʍ̅ɛ̅ռ̅ȶ̅ɨ̅օ̅ռ :* "..settings.lock_mention.."\n*̅ʟ̅օ̅ƈ̅ӄ̅ ̅ɛ̅ռ̅ɢ̅ʟ̅ɨ̅ֆ̅ɦ :* "..settings.lock_english.."\n*̅ʟ̅օ̅ƈ̅ӄ̅ ̅ǟ̅ʀ̅ǟ̅ɮ̅ɨ̅ƈ: :* "..settings.lock_arabic.."\n*̅ʟ̅օ̅ƈ̅ӄ̅ ̅ա̅ɛ̅ɮ̅ք̅ǟ̅ɢ̅ɛ :* "..settings.lock_webpage.."\n*̅ʟ̅օ̅ƈ̅ӄ̅ ̅ɮ̅ǟ̅ɖ̅ա̅օ̅ʀ̅ɖ :* "..settings.lock_badword.."\n*̅ʟ̅օ̅ƈ̅ӄ̅ ̅ʍ̅ǟ̅ʀ̅ӄ̅ɖ̅օ̅ա̅ռ :* "..settings.lock_markdown.."\n*̅ʟ̅օ̅ƈ̅ӄ̅ ̅ȶ̅ǟ̅ɮ̅ƈ̅ɦ̅ɨ :* "..settings.lock_tabchi.."\n*̅G̅ʀ̅օ̅ʊ̅ք̅ ̅ա̅ɛ̅ʟ̅ƈ̅օ̅ʍ̅ɛ :* "..settings.welcome.."\n*̅L̅օ̅ƈ̅ӄ̅ ̅ք̅ɨ̅ռ̅ ̅ʍ̅ɛ̅ֆ̅ֆ̅ǟ̅ɢ̅ɛ :* "..settings.lock_pin.."\n*̅B̅օ̅ȶ̅ֆ̅ ̅ք̅ʀ̅օ̅ȶ̅ɛ̅ƈ̅ȶ̅ɨ̅օ̅ռ :* "..settings.lock_bots.."\n*̅F̅ʟ̅օ̅օ̅ɖ̅ ̅ֆ̅ɛ̅ռ̅ֆ̅ɨ̅ȶ̅ɨ̅ʋ̅ɨ̅ȶ̅ʏ :* *"..NUM_MSG_MAX.."*\n*̅C̅ɦ̅ǟ̅ʀ̅ǟ̅ƈ̅ȶ̅ɛ̅ʀ̅ ̅ֆ̅ɛ̅ռ̅ֆ̅ɨ̅ȶ̅ɨ̅ʋ̅ɨ̅ȶ̅ʏ :* *"..SETCHAR.."*\n*̅F̅ℓ̅σ̅σ̅đ̅ ̅ƈ̅ɧ̅ε̅ƈ̅ҡ̅ ̅ŧ̅ï̅ɱ̅ε :* *"..TIME_CHECK.."*\n➖➖➖➖➖➖➖➖➖\n*̅G̅ŗ̅σ̅ų̅þ̅ ̅M̅ų̅ŧ̅ε̅ ̅L̅ï̅ş̅ŧ* : \n*̅M̅ų̅ŧ̅ε̅ ̅ɠ̅ï̅∱ :* "..settings.mute_gif.."\n*̅M̅ų̅ŧ̅ε̅ ̅ŧ̅ε̅х̅ŧ :* "..settings.mute_text.."\n*̅M̅ų̅ŧ̅ε̅ ̅ï̅ŋ̅ℓ̅ï̅ŋ̅ε :* "..settings.mute_inline.."\n*̅M̅ų̅ŧ̅ε̅ ̅ɠ̅ą̅ɱ̅ε :* "..settings.mute_game.."\n*̅M̅ų̅ŧ̅ε̅ ̅þ̅ɧ̅σ̅ŧ̅σ :* "..settings.mute_photo.."\n*̅M̅ų̅ŧ̅ε̅ ̅√̅ï̅đ̅ε̅σ :* "..settings.mute_video.."\n*̅M̅ų̅ŧ̅ε̅ ̅ą̅ų̅đ̅ï̅σ :* "..settings.mute_audio.."\n*̅M̅ų̅ŧ̅ε̅ ̅√̅σ̅ï̅ƈ̅ε :* "..settings.mute_voice.."\n*̅M̅ų̅ŧ̅ε̅ ̅ş̅ŧ̅ï̅ƈ̅ҡ̅ε̅ŗ :* "..settings.mute_sticker.."\n*̅M̅ų̅ŧ̅ε̅ ̅ƈ̅σ̅ŋ̅ŧ̅ą̅ƈ̅ŧ :* "..settings.mute_contact.."\n*̅M̅ų̅ŧ̅ε̅ ̅∱̅σ̅ŗ̅щ̅ą̅ŗ̅đ :* "..settings.mute_forward.."\n*̅M̅ų̅ŧ̅ε̅ ̅ℓ̅σ̅ƈ̅ą̅ŧ̅ï̅σ̅ŋ :* "..settings.mute_location.."\n*̅M̅ų̅ŧ̅ε̅ ̅đ̅σ̅ƈ̅ų̅ɱ̅ε̅ŋ̅ŧ :* "..settings.mute_document.."\n*̅M̅ų̅ŧ̅ε̅ ̅T̅ɠ̅S̅ε̅ŗ̅√̅ï̅ƈ̅ε :* "..settings.mute_tgservice.."\n*̅M̅ų̅ŧ̅ε̅ ̅K̅ε̅γ̅ɓ̅σ̅ą̅ŗ̅đ :* "..settings.mute_keyboard.."\n*̅M̅ų̅ŧ̅ε̅ ̅A̅ℓ̅ℓ :* "..mute_all1.."\n➖➖➖➖➖➖➖➖➖\n*̅E̅х̅þ̅ï̅ŗ̅ε̅ ̅D̅ą̅ŧ̅ε :* *"..expire_date.."*\n*̅B̅σ̅ŧ̅ ̅C̅σ̅ɱ̅ɱ̅ą̅ŋ̅đ̅ş :* *"..cmdsss.."*\n*̅B̅σ̅ŧ̅ ̅ƈ̅ɧ̅ą̅ŋ̅ŋ̅ε̅ℓ:* @BeyondTeam\n*̅G̅ŗ̅σ̅ų̅þ̅ ̅L̅ą̅ŋ̅ɠ̅ų̅ą̅ɠ̅ε:* *̅E̅N*"
+text = "*̅G̅ʀ̅օ̅ʊ̅ք̅ ̅S̅ɛ̅ȶ̅ȶ̅ɨ̅ռ̅ɢ̅ֆ:*\n*̅ʟ̅օ̅ƈ̅ӄ̅ ̅ɛ̅ɖ̅ɨ̅ȶ:* "..settings.lock_edit.."\n*̅ʟ̅օ̅ƈ̅ӄ̅ ̅ʟ̅ɨ̅ռ̅ӄ̅ֆ :* "..settings.lock_link.."\n*̅ʟ̅օ̅ƈ̅ӄ̅ ̅ȶ̅ǟ̅ɢ̅ֆ :* "..settings.lock_tag.."\n*̅ʟ̅օ̅ƈ̅ӄ̅ ̅ʝ̅օ̅ɨ̅ռ :* "..settings.lock_join.."\n*̅ʟ̅օ̅ƈ̅ӄ̅ ̅ʄ̅ʟ̅օ̅օ̅ɖ :* "..settings.lock_flood.."\n*̅ʟ̅օ̅ƈ̅ӄ̅ ̅ʊ̅ֆ̅ɛ̅ʀ̅ռ̅ǟ̅ʍ̅ɛ :* "..settings.lock_username.."\n*̅ʟ̅օ̅ƈ̅ӄ̅ ̅ֆ̅ք̅ǟ̅ʍ :* "..settings.lock_spam.."\n*̅ʟ̅օ̅ƈ̅ӄ̅ ̅ʍ̅ɛ̅ռ̅ȶ̅ɨ̅օ̅ռ :* "..settings.lock_mention.."\n*̅ʟ̅օ̅ƈ̅ӄ̅ ̅ɛ̅ռ̅ɢ̅ʟ̅ɨ̅ֆ̅ɦ :* "..settings.lock_english.."\n*̅ʟ̅օ̅ƈ̅ӄ̅ ̅ǟ̅ʀ̅ǟ̅ɮ̅ɨ̅ƈ: :* "..settings.lock_arabic.."\n*̅ʟ̅օ̅ƈ̅ӄ̅ ̅ա̅ɛ̅ɮ̅ք̅ǟ̅ɢ̅ɛ :* "..settings.lock_webpage.."\n*̅ʟ̅օ̅ƈ̅ӄ̅ ̅ɮ̅ǟ̅ɖ̅ա̅օ̅ʀ̅ɖ :* "..settings.lock_badword.."\n*̅ʟ̅օ̅ƈ̅ӄ̅ ̅ʍ̅ǟ̅ʀ̅ӄ̅ɖ̅օ̅ա̅ռ :* "..settings.lock_markdown.."\n*̅ʟ̅օ̅ƈ̅ӄ̅ ̅ȶ̅ǟ̅ɮ̅ƈ̅ɦ̅ɨ :* "..settings.lock_tabchi.."\n*̅G̅ʀ̅օ̅ʊ̅ք̅ ̅ա̅ɛ̅ʟ̅ƈ̅օ̅ʍ̅ɛ :* "..settings.welcome.."\n*̅L̅օ̅ƈ̅ӄ̅ ̅ք̅ɨ̅ռ̅ ̅ʍ̅ɛ̅ֆ̅ֆ̅ǟ̅ɢ̅ɛ :* "..settings.lock_pin.."\n*̅B̅օ̅ȶ̅ֆ̅ ̅ք̅ʀ̅օ̅ȶ̅ɛ̅ƈ̅ȶ̅ɨ̅օ̅ռ :* "..settings.lock_bots.."\n*̅F̅ʟ̅օ̅օ̅ɖ̅ ̅ֆ̅ɛ̅ռ̅ֆ̅ɨ̅ȶ̅ɨ̅ʋ̅ɨ̅ȶ̅ʏ :* *"..NUM_MSG_MAX.."*\n*̅C̅ɦ̅ǟ̅ʀ̅ǟ̅ƈ̅ȶ̅ɛ̅ʀ̅ ̅ֆ̅ɛ̅ռ̅ֆ̅ɨ̅ȶ̅ɨ̅ʋ̅ɨ̅ȶ̅ʏ :* *"..SETCHAR.."*\n*̅F̅ℓ̅σ̅σ̅đ̅ ̅ƈ̅ɧ̅ε̅ƈ̅ҡ̅ ̅ŧ̅ï̅ɱ̅ε :* *"..TIME_CHECK.."*\n➖➖➖➖➖➖➖➖➖\n*̅G̅ŗ̅σ̅ų̅þ̅ ̅M̅ų̅ŧ̅ε̅ ̅L̅ï̅ş̅ŧ* : \n*̅M̅ų̅ŧ̅ε̅ ̅ɠ̅ï̅∱ :* "..settings.mute_gif.."\n*̅M̅ų̅ŧ̅ε̅ ̅ŧ̅ε̅х̅ŧ :* "..settings.mute_text.."\n*̅M̅ų̅ŧ̅ε̅ ̅ï̅ŋ̅ℓ̅ï̅ŋ̅ε :* "..settings.mute_inline.."\n*̅M̅ų̅ŧ̅ε̅ ̅ɠ̅ą̅ɱ̅ε :* "..settings.mute_game.."\n*̅M̅ų̅ŧ̅ε̅ ̅þ̅ɧ̅σ̅ŧ̅σ :* "..settings.mute_photo.."\n*̅M̅ų̅ŧ̅ε̅ ̅√̅ï̅đ̅ε̅σ :* "..settings.mute_video.."\n*̅M̅ų̅ŧ̅ε̅ ̅ą̅ų̅đ̅ï̅σ :* "..settings.mute_audio.."\n*̅M̅ų̅ŧ̅ε̅ ̅√̅σ̅ï̅ƈ̅ε :* "..settings.mute_voice.."\n*̅M̅ų̅ŧ̅ε̅ ̅ş̅ŧ̅ï̅ƈ̅ҡ̅ε̅ŗ :* "..settings.mute_sticker.."\n*̅M̅ų̅ŧ̅ε̅ ̅ƈ̅σ̅ŋ̅ŧ̅ą̅ƈ̅ŧ :* "..settings.mute_contact.."\n*̅M̅ų̅ŧ̅ε̅ ̅∱̅σ̅ŗ̅щ̅ą̅ŗ̅đ :* "..settings.mute_forward.."\n*̅M̅ų̅ŧ̅ε̅ ̅ℓ̅σ̅ƈ̅ą̅ŧ̅ï̅σ̅ŋ :* "..settings.mute_location.."\n*̅M̅ų̅ŧ̅ε̅ ̅đ̅σ̅ƈ̅ų̅ɱ̅ε̅ŋ̅ŧ :* "..settings.mute_document.."\n*̅M̅ų̅ŧ̅ε̅ ̅T̅ɠ̅S̅ε̅ŗ̅√̅ï̅ƈ̅ε :* "..settings.mute_tgservice.."\n*̅M̅ų̅ŧ̅ε̅ ̅K̅ε̅γ̅ɓ̅σ̅ą̅ŗ̅đ :* "..settings.mute_keyboard.."\n*̅M̅ų̅ŧ̅ε̅ ̅A̅ℓ̅ℓ :* "..mute_all1.."\n➖➖➖➖➖➖➖➖➖\n*̅E̅х̅þ̅ï̅ŗ̅ε̅ ̅D̅ą̅ŧ̅ε :* *"..expire_date.."*\n*̅B̅σ̅ŧ̅ ̅C̅σ̅ɱ̅ɱ̅ą̅ŋ̅đ̅ş :* *"..cmdsss.."*\n*̅B̅σ̅ŧ̅ ̅ƈ̅ɧ̅ą̅ŋ̅ŋ̅ε̅ℓ:* @ProtectionTeam\n*̅G̅ŗ̅σ̅ų̅þ̅ ̅L̅ą̅ŋ̅ɠ̅ų̅ą̅ɠ̅ε:* *̅E̅N*"
 else
 local settings = data[tostring(target)]["settings"] 
- text = "*تنظیمات گروه:*\n_قفل ویرایش پیام :_ "..settings.lock_edit.."\n_قفل لینک :_ "..settings.lock_link.."\n_قفل ورود :_ "..settings.lock_join.."\n_قفل تگ :_ "..settings.lock_tag.."\n_قفل پیام مکرر :_ "..settings.lock_flood.."\n_قفل یوزرنیم :_ "..settings.lock_username.."\n_قفل هرزنامه :_ "..settings.lock_spam.."\n_قفل فراخوانی :_ "..settings.lock_mention.."\n_قفل انگلیسی :_ "..settings.lock_english.."\n_قفل عربی :_ "..settings.lock_arabic.."\n_قفل صفحات وب :_ "..settings.lock_webpage.."\n_قفل فحش :_ "..settings.lock_badword.."\n_قفل فونت :_ "..settings.lock_markdown.."\n_قفل تبچی :_ "..settings.lock_tabchi.."\n_پیام خوشآمد گویی :_ "..settings.welcome.."\n_قفل سنجاق کردن :_ "..settings.lock_pin.."\n_محافظت در برابر ربات ها :_ "..settings.lock_bots.."\n_حداکثر پیام مکرر :_ *"..NUM_MSG_MAX.."*\n_حداکثر حروف مجاز :_ *"..SETCHAR.."*\n_زمان بررسی پیام های مکرر :_ *"..TIME_CHECK.."*\n➖➖➖➖➖➖➖➖➖\n*لیست بیصدا ها* : \n_بیصدا تصاویر متحرک :_ "..settings.mute_gif.."\n_بیصدا متن :_ "..settings.mute_text.."\n_بیصدا کیبورد شیشه ای :_ "..settings.mute_inline.."\n_بیصدا بازی های تحت وب :_ "..settings.mute_game.."\n_بیصدا عکس :_ "..settings.mute_photo.."\n_بیصدا فیلم :_ "..settings.mute_video.."\n_بیصدا آهنگ :_ "..settings.mute_audio.."\n_بیصدا صدا :_ "..settings.mute_voice.."\n_بیصدا برچسب :_ "..settings.mute_sticker.."\n_بیصدا مخاطب :_ "..settings.mute_contact.."\n_بیصدا نقل قول :_ "..settings.mute_forward.."\n_بیصدا موقعیت :_ "..settings.mute_location.."\n_بیصدا اسناد :_ "..settings.mute_document.."\n_بیصدا خدمات تلگرام :_ "..settings.mute_tgservice.."\n_بیصدا صفحه کلید :_ "..settings.mute_keyboard.."\n_بیصدا همه پیام ها :_ "..mute_all2.."\n*____________________*\n_دستورات ربات :_ *"..cmdsss.."*\n_تاریخ انقضا :_ *"..expire_date.."*\n*کانال ربات*: @BeyondTeam\n_زبان سوپر گروه :_ `فارسی`"
+ text = "*تنظیمات گروه:*\n_قفل ویرایش پیام :_ "..settings.lock_edit.."\n_قفل لینک :_ "..settings.lock_link.."\n_قفل ورود :_ "..settings.lock_join.."\n_قفل تگ :_ "..settings.lock_tag.."\n_قفل پیام مکرر :_ "..settings.lock_flood.."\n_قفل یوزرنیم :_ "..settings.lock_username.."\n_قفل هرزنامه :_ "..settings.lock_spam.."\n_قفل فراخوانی :_ "..settings.lock_mention.."\n_قفل انگلیسی :_ "..settings.lock_english.."\n_قفل عربی :_ "..settings.lock_arabic.."\n_قفل صفحات وب :_ "..settings.lock_webpage.."\n_قفل فحش :_ "..settings.lock_badword.."\n_قفل فونت :_ "..settings.lock_markdown.."\n_قفل تبچی :_ "..settings.lock_tabchi.."\n_پیام خوشآمد گویی :_ "..settings.welcome.."\n_قفل سنجاق کردن :_ "..settings.lock_pin.."\n_محافظت در برابر ربات ها :_ "..settings.lock_bots.."\n_حداکثر پیام مکرر :_ *"..NUM_MSG_MAX.."*\n_حداکثر حروف مجاز :_ *"..SETCHAR.."*\n_زمان بررسی پیام های مکرر :_ *"..TIME_CHECK.."*\n➖➖➖➖➖➖➖➖➖\n*لیست بیصدا ها* : \n_بیصدا تصاویر متحرک :_ "..settings.mute_gif.."\n_بیصدا متن :_ "..settings.mute_text.."\n_بیصدا کیبورد شیشه ای :_ "..settings.mute_inline.."\n_بیصدا بازی های تحت وب :_ "..settings.mute_game.."\n_بیصدا عکس :_ "..settings.mute_photo.."\n_بیصدا فیلم :_ "..settings.mute_video.."\n_بیصدا آهنگ :_ "..settings.mute_audio.."\n_بیصدا صدا :_ "..settings.mute_voice.."\n_بیصدا برچسب :_ "..settings.mute_sticker.."\n_بیصدا مخاطب :_ "..settings.mute_contact.."\n_بیصدا نقل قول :_ "..settings.mute_forward.."\n_بیصدا موقعیت :_ "..settings.mute_location.."\n_بیصدا اسناد :_ "..settings.mute_document.."\n_بیصدا خدمات تلگرام :_ "..settings.mute_tgservice.."\n_بیصدا صفحه کلید :_ "..settings.mute_keyboard.."\n_بیصدا همه پیام ها :_ "..mute_all2.."\n*____________________*\n_دستورات ربات :_ *"..cmdsss.."*\n_تاریخ انقضا :_ *"..expire_date.."*\n*کانال ربات*: @ProtectionTeam\n_زبان سوپر گروه :_ `فارسی`"
 end
 text = string.gsub(text, 'yes', '🔒')
 text = string.gsub(text, 'no', '🔓')
@@ -3836,9 +3836,9 @@ if (matches[1]:lower() == 'newlink' or matches[1] == 'لینک جدید') and is
   if matches[1]:lower() == "rules" or matches[1] == 'قوانین' then
  if not data[tostring(chat)]['rules'] then
    if not lang then
-     rules = "ℹ️ The Default Rules :\n1⃣ No Flood.\n2⃣ No Spam.\n3⃣ No Advertising.\n4⃣ Try to stay on topic.\n5⃣ Forbidden any racist, sexual, homophobic or gore content.\n➡️ Repeated failure to comply with these rules will cause ban.\n@BeyondTeam"
+     rules = "ℹ️ The Default Rules :\n1⃣ No Flood.\n2⃣ No Spam.\n3⃣ No Advertising.\n4⃣ Try to stay on topic.\n5⃣ Forbidden any racist, sexual, homophobic or gore content.\n➡️ Repeated failure to comply with these rules will cause ban.\n@ProtectionTeam"
     elseif lang then
-       rules = "ℹ️ قوانین پپیشفرض:\n1⃣ ارسال پیام مکرر ممنوع.\n2⃣ اسپم ممنوع.\n3⃣ تبلیغ ممنوع.\n4⃣ سعی کنید از موضوع خارج نشید.\n5⃣ هرنوع نژاد پرستی, شاخ بازی و پورنوگرافی ممنوع .\n➡️ از قوانین پیروی کنید, در صورت عدم رعایت قوانین اول اخطار و در صورت تکرار مسدود.\n@BeyondTeam"
+       rules = "ℹ️ قوانین پپیشفرض:\n1⃣ ارسال پیام مکرر ممنوع.\n2⃣ اسپم ممنوع.\n3⃣ تبلیغ ممنوع.\n4⃣ سعی کنید از موضوع خارج نشید.\n5⃣ هرنوع نژاد پرستی, شاخ بازی و پورنوگرافی ممنوع .\n➡️ از قوانین پیروی کنید, در صورت عدم رعایت قوانین اول اخطار و در صورت تکرار مسدود.\n@ProtectionTeam"
  end
         else
      rules = "*Group Rules :*\n"..data[tostring(chat)]['rules']
@@ -4276,6 +4276,7 @@ _Its Means, Only Group_ *Moderators/Owners* _Can Use It!_
 elseif lang then
 
 lock = [[
+*دستورات ربات پروتکشن:*					
 *قفل🔒*
 
 `لینک ~ ویرایش ~ تگ ~ یوزرنیم ~ انگلیسی ~ عربی ~ وب ~ ربات ~ هرزنامه ~ پیام مکرر ~ فراخوانی ~ سنجاق ~ دستورات ~ ورود ~ فونت ~ تبچی`
@@ -4631,7 +4632,7 @@ end
 if matches[1]:lower() == "helpfun" or matches[1] == "راهنما سرگرمی" and is_mod(msg) then
 if not lang then
 helpfun = [[
-_Beyond Reborn Fun Help Commands:_
+_PCT Reborn Fun Help Commands:_
 
 *!time*
 _Get time in a sticker_
@@ -4678,7 +4679,7 @@ tdcli.sendMessage(msg.chat_id_, 0, 1, helpfun, 1, 'md')
 else
 
 helpfun = [[
-_راهنمای سرگرمی ربات بیوند:_
+_راهنمای سرگرمی ربات پروتکشن:_
 *ساعت*
 _دریافت ساعت به صورت استیکر_
 
@@ -4728,7 +4729,7 @@ if matches[1] == "helptools" or  matches[1] == "راهنما ابزار" and is_
 if not lang then
 text = [[
 
-_Sudoer And Admins Beyond Bot Help :_
+_Sudoer And Admins PCT Bot Help :_
 
 *!visudo* `[username|id|reply]`
 _Add Sudo_
@@ -4840,7 +4841,7 @@ tdcli.sendMessage(msg.chat_id_, 0, 1, text, 1, 'md')
 else
 
 text = [[
-_راهنمای ادمین و سودو های ربات بیوند:_
+_راهنمای ادمین و سودو های ربات پروتکشن:_
 
 *سودو* `[username|id|reply]`
 _اضافه کردن سودو_
@@ -5053,9 +5054,9 @@ local data = load_data(_config.moderation.data)
 rules = administration[arg.chat_id]['rules']
 else
    if not lang then
-     rules = "ℹ️ The Default Rules :\n1⃣ No Flood.\n2⃣ No Spam.\n3⃣ No Advertising.\n4⃣ Try to stay on topic.\n5⃣ Forbidden any racist, sexual, homophobic or gore content.\n➡️ Repeated failure to comply with these rules will cause ban.\n@BeyondTeam"
+     rules = "ℹ️ The Default Rules :\n1⃣ No Flood.\n2⃣ No Spam.\n3⃣ No Advertising.\n4⃣ Try to stay on topic.\n5⃣ Forbidden any racist, sexual, homophobic or gore content.\n➡️ Repeated failure to comply with these rules will cause ban.\n@ProtectionTeam"
     elseif lang then
-       rules = "ℹ️ قوانین پپیشفرض:\n1⃣ ارسال پیام مکرر ممنوع.\n2⃣ اسپم ممنوع.\n3⃣ تبلیغ ممنوع.\n4⃣ سعی کنید از موضوع خارج نشید.\n5⃣ هرنوع نژاد پرستی, شاخ بازی و پورنوگرافی ممنوع .\n➡️ از قوانین پیروی کنید, در صورت عدم رعایت قوانین اول اخطار و در صورت تکرار مسدود.\n@BeyondTeam"
+       rules = "ℹ️ قوانین پپیشفرض:\n1⃣ ارسال پیام مکرر ممنوع.\n2⃣ اسپم ممنوع.\n3⃣ تبلیغ ممنوع.\n4⃣ سعی کنید از موضوع خارج نشید.\n5⃣ هرنوع نژاد پرستی, شاخ بازی و پورنوگرافی ممنوع .\n➡️ از قوانین پیروی کنید, در صورت عدم رعایت قوانین اول اخطار و در صورت تکرار مسدود.\n@ProtectionTeam"
  end
 end
 if data.username_ then
