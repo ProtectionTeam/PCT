@@ -81,7 +81,7 @@ function create_config( )
 		"plugins",
 		"tools",
 	    "fun",
-       " del", 
+       " del"
 	},
     sudo_users = {
    157059515,
