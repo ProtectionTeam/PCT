@@ -1163,7 +1163,7 @@ return chat_list(msg)
 	   tdcli.sendMessage(matches[2], 0, 1, "Group has been removed by admin command", 1, 'html')
     return '_Group_ *'..matches[2]..'* _removed_'
 		end
-if matches[1] == 'beyond' or matches[1] == 'بیوند' then
+if matches[1] == 'pct' or matches[1] == 'پروتکشن' then
 return tdcli.sendMessage(msg.to.id, msg.id, 1, _config.info_text, 1, 'html')
     end
 if (matches[1] == 'adminlist' or matches[1] == 'لیست ادمین') and is_admin(msg) then
@@ -1208,7 +1208,7 @@ command .. "([Aa]dminprom) (.*)$",
 command .. "([Aa]dmindem) (.*)$",
 command .. "([Ll]eave)$",
 command .. "([Aa]utoleave) (.*)$", 
-command .. "([Bb]eyond)$",
+command .. "([Pp]ct)$",
 command .. "([Cc]reategroup) (.*)$",
 command .. "([Cc]reatesuper) (.*)$",
 command .. "([Tt]osuper)$",
@@ -1250,7 +1250,7 @@ command .. "([Rr]em)$",
  "^([Aa]dmindem) (.*)$",
  "^([Ll]eave)$",
  "^([Aa]utoleave) (.*)$", 
- "^([Bb]eyond)$",
+ "^([Pp]ct)$",
  "^([Cc]reategroup) (.*)$",
  "^([Cc]reatesuper) (.*)$",
  "^([Tt]osuper)$",
@@ -1321,7 +1321,7 @@ patterns_fa = {
     "^(ارسال) +(.*) (-%d+)$",
 	"^(افزودن) (-%d+)$",
 	"^(پاک کردن حافظه)$",
-	"^(بیوند)$",
+	"^(پروتکشن)$",
 },
 run = run, pre_process = pre_process
 }
