@@ -98,7 +98,7 @@ Admins :
 @CliFather 》 Founder & Developer
 @aliaz003 》 Developer & Sponser
 @MahDiRoO 》 Developer 
-@MH_DM 》 Manager 
+@QzAvt 》 Editor 
 
 
 Special thanks to :
