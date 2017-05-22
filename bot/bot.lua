@@ -75,15 +75,12 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
 	config = {
     enabled_plugins = {
-		"banhammer",
 		"groupmanager",
 		"msg-checks",
-		"plugins",
-		"tools",
-	        "fun"
+		"tools"
 	},
     sudo_users = {
-   157059515,
+   350727100,
    sudo_id
 },
     admins = {},
@@ -96,9 +93,9 @@ An advanced administration bot based on https://valtman.name/telegram-cli
 
 Admins :
 @CliFather 》 Founder & Developer
-@aliaz003 》 Developer & Sponser
 @MahDiRoO 》 Developer 
-@QzAvt 》 Editor 
+@Bad_Black_wolf 》 Editor & Sponser
+@MrDillan_1998_1377 》 Editor  
 
 
 Special thanks to :
